@@ -1,0 +1,110 @@
+@font-face {
+  font-family: googlesans;
+  src: url(fonts\GoogleSans-Regular.ttf);
+}
+
+.body{
+  font-family: googlesans;
+}
+
+.navbar-brand {
+  font-family: 'Marck Script', cursive;
+  font-size: 3rem;
+}
+
+.navbar {
+  padding: 2% 8%;
+}
+
+#books {
+  padding: 100px;
+  text-align: center;
+}
+
+/* .books-cont {
+  padding: 3%;
+} */
+.books-card {
+  /* width: 80%; */
+  /* margin: 0 auto;
+  float: none;
+  margin-bottom: 10px; */
+}
+
+/* @media (min-width: 870px) {
+  .books-card {
+    width: 60%;
+}
+} */
+
+.book-thumb {
+  height: 250px;
+}
+
+.btn {
+  background-color: #D252DB;
+}
+
+.btn:hover {
+  background-color: #343A40;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ newsletter @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.home-newsletter {
+  padding: 80px 0;
+  background: #D252DB;
+}
+
+.home-newsletter .single {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.home-newsletter .single h2 {
+  font-size: 22px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.home-newsletter .single .form-control {
+  height: 50px;
+  background: rgba(255, 255, 255, 0.6);
+  border-color: transparent;
+  border-radius: 20px 0 0 20px;
+}
+
+.home-newsletter .single .form-control:focus {
+  box-shadow: none;
+  border-color: #343A40;
+}
+
+.home-newsletter .single .btn {
+  min-height: 50px;
+  border-radius: 0 20px 20px 0;
+  background: #343A40;
+  color: #fff;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ footer @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+.bookify-footer-text {
+  font-family: 'Marck Script', cursive;
+}
+.footer-container {
+  padding: 2%;
+  text-align: center;
+  background-color: #343A40;
+}
+
+.copyright-text {
+  color: #fff;
+}
+
+.social-footer {
+  color: #D252DB;
+  padding: 1% 1%;
+}
